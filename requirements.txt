@@ -1,0 +1,33 @@
+# Core LangChain (aligned versions)
+langchain==0.2.16
+langchain-core==0.2.38
+langchain-community==0.2.16
+langchain-text-splitters==0.2.4
+
+# HuggingFace ecosystem
+transformers==4.41.2
+sentence-transformers==2.7.0
+huggingface-hub==0.23.4
+
+# Vector store
+faiss-cpu
+
+# Sparse retrieval
+rank_bm25
+
+# Cross-encoder reranking (Layer 2C)
+sentence-transformers
+
+# Structured output + validation (Layer 3)
+pydantic
+
+# RAGAs evaluation (Layer 4)
+ragas
+datasets
+
+# LangSmith observability (Layer 5)
+langsmith
+
+# Utilities
+numpy
+python-dotenv
