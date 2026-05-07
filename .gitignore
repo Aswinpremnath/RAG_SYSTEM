@@ -1,0 +1,4 @@
+# N-Mod EXT ignore file
+.nmodignore
+.env
+rag_index/
