@@ -19,7 +19,6 @@ def load_and_chunk(text, chunk_size=500, overlap=100):
 
     return chunks
 
-
 # --- Quality Filter ---
 def is_high_quality(chunk):
     # Length filter
